@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <meta name="author" content="Jeremiah E. Ochepo"> <!-- Author of the page -->
+    <meta name="publish_date" content="2024-10-17"> <!-- Page publish date -->
+    <meta name="update_date" content="2024-10-17"> <!-- Page last update date -->
+    <title>Contact Form</title> <!-- Title of the webpage -->
+    <link rel="stylesheet" href="../Static/css/styles.css"> <!-- Link to external CSS stylesheet -->
+    <!-- Include jQuery from CDN for easy manipulation of HTML elements -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid"> <!-- Fluid container for full-width layout -->
+
+        <h1>Contact Us</h1><br>
+        
+        <form class="form-group" id="contact-form" action="../Templates/index.html" method="POST"> <!-- Contact form -->
+            <div class="row"> <!-- Row to contain form fields -->
+                <div class="col-6"> <!-- First name input field -->
+                    <label for="first_name">First Name*</label> <!-- Label for the input -->
+                    <input type="text" id="first_name" name="first_name" required> <!-- Input for first name -->
+                </div>
+
+                <div class="col-6"> <!-- Last name input field -->
+                    <label for="last_name">Last Name*</label> <!-- Label for the input -->
+                    <input type="text" id="last_name" name="last_name" required> <!-- Input for last name -->
+                </div>
+
+                <div class="col-12"> <!-- Email input field -->
+                    <label for="email_address">Email Address*</label> <!-- Label for the input -->
+                    <input type="email" id="email_address" name="email_address" required> <!-- Input for email address -->
+                </div>
+
+                <div class="col-12"> <!-- Query type selection -->
+                    <label>Query Type*</label> <!-- Label for query type -->
+                    <div class="row query-type-container"> <!-- Container for radio buttons -->
+                        <div class="col-6 radio-input"> <!-- Radio button for General Enquiry -->
+                            <input type="radio" id="query_type_general" name="query_type" value="General Enquiry" required> <!-- Radio input -->
+                            <label for="query_type_general">General Enquiry</label> <!-- Label for the radio input -->
+                        </div>
+                
+                        <div class="col-6 radio-input"> <!-- Radio button for Subject Request -->
+                            <input type="radio" id="query_type_subject" name="query_type" value="Subject Request" required> <!-- Radio input -->
+                            <label for="query_type_subject">Subject Request</label> <!-- Label for the radio input -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12"> <!-- Message input field -->
+                    <label for="message">Message*</label> <!-- Label for the textarea -->
+                    <textarea id="message" name="message" required style="height:200px;"></textarea> <!-- Textarea for user message -->
+                </div>
+
+                <div class="col-12 checkbox-input"> <!-- Consent checkbox -->
+                    <input type="checkbox" id="consent" name="consent" required> <!-- Checkbox for user consent -->
+                    <label for="consent">I consent to being contacted by the team *</label> <!-- Label for the checkbox -->
+                </div>
+
+                <div class="col-12"> <!-- Submit button -->
+                    <button type="submit" id="submit-btn">Submit</button> <!-- Button to submit the form -->
+                </div>
+            </div>
+        </form>
+
+        <!-- Output Modal -->
+        <div class="modal" id="output-modal">
+            <div class="modal-content">
+                <span class="close-button" id="close-button">&times;</span>
+                <div id="output">
+                    <!-- Dynamic output will be displayed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+  
+    
+    <script src="../Static/js/script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
