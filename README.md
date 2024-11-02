@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # Contact Form Application
 
+=======
+>>>>>>> d1e64b4729bc15810542c8bff77f530aabad6c11
 This project is a simple **Contact Form** built using HTML, CSS, JavaScript (with jQuery), and a responsive design approach. 
 It includes a modal feature that displays user inputs after form submission.
 
@@ -40,6 +43,7 @@ To run this project on your local machine, follow these steps:
 
 1. **Clone the repository:**
 
+<<<<<<< HEAD
     ```bash
     git clone <repository-url goes here>
     ```
@@ -57,6 +61,27 @@ To run this project on your local machine, follow these steps:
     ```
     http://localhost/contact-form/
     ```
+=======
+    
+bash
+    git clone <repository-url goes here>
+
+
+2. **Navigate to the project folder:**
+
+    
+bash
+    cd <project-folder name goes here>
+
+
+3. **Open the index.html file in a browser:**
+
+    If using a local server like XAMPP or MAMP, move the project folder to the server’s htdocs or relevant directory and access it through your browser. Example:
+
+    
+http://localhost/contact-form/
+
+>>>>>>> d1e64b4729bc15810542c8bff77f530aabad6c11
 
 ### Project Structure
 WebDesign_Project1/ │ ├── README.md # Project documentation ├── template/ │ └── index.html # Main HTML template file ├── css/ │ └── styles.css # CSS styles for the project └── js/ └── script.js # JavaScript logic for the project
@@ -79,9 +104,15 @@ WebDesign_Project1/ │ ├── README.md # Project documentation ├── te
 
 ### CSS (styles.css)
 
+<<<<<<< HEAD
 - The layout uses a flexible grid system (`col-6` and `col-12` classes) to ensure responsiveness.
 - Custom styles are defined for form elements, modal, and buttons.
 - A basic reset (`margin: 0; padding: 0; box-sizing: border-box`) is applied for consistent styling.
+=======
+- The layout uses a flexible grid system (col-6 and col-12 classes) to ensure responsiveness.
+- Custom styles are defined for form elements, modal, and buttons.
+- A basic reset (margin: 0; padding: 0; box-sizing: border-box) is applied for consistent styling.
+>>>>>>> d1e64b4729bc15810542c8bff77f530aabad6c11
 
 ### JavaScript (script.js)
 
@@ -108,6 +139,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+<<<<<<< HEAD
 Cheers! 🎉👨‍💻👩‍💻
 
 
+=======
+Cheers! 🎉👨‍💻👩‍💻
+>>>>>>> d1e64b4729bc15810542c8bff77f530aabad6c11
