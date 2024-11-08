@@ -1,6 +1,4 @@
 
----
-
 # Contact Form Application
 
 This project is a simple **Contact Form** built using HTML, CSS, JavaScript (with jQuery), and a responsive design approach. It includes a modal feature that displays user inputs upon form submission.
@@ -71,19 +69,24 @@ To run this project locally, follow these steps:
 ## Project Structure
 
 ```
-ContactFormProject/
+Contact_Form/
 │
-├── README.md           # Project documentation
-├── Screenshots/        # Contains images for documentation
-│   ├── Contact-Form-Desktop.jpg
-│   └── Contact-Form-Mobile.png
-├── template/
-│   └── index.html      # Main HTML template file
-├── css/
-│   └── styles.css      # CSS styles for the project
-└── js/
-    └── script.js       # JavaScript logic for the project
-
+├── Demo-Video/                        # Folder containing demo video
+│   └── Demo-Video.mp4                 # The actual demo video file
+│
+├── Screenshots/                       # Folder containing screenshots
+│   ├── Contact-Form-Desktop.jpg       # Screenshot for desktop view
+│   └── Contact-Form-Mobile.png        # Screenshot for mobile view
+│
+├── css/                               # Folder containing CSS styles
+│   └── styles.css                     # Main stylesheet
+│
+├── js/                                # Folder containing JavaScript
+│   └── script.js                      # JavaScript logic for the contact form
+│
+├── index.html                         # Main HTML template file
+├── LICENSE                            # License information (optional)
+└── README.md                          # Project documentation
 ```
 
 ## Usage
@@ -130,6 +133,5 @@ Ensure your code follows best practices and includes proper comments and commit 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 ---
